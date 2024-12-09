@@ -1,0 +1,40 @@
+body {
+  background-color: #333;
+}
+.clockdate {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.clockdate-wrapper {
+  background: #141e30;
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
+  background: linear-gradient(to right, #243b55, #141e30);
+  padding: 25px;
+  max-width: 350px;
+
+  border-radius: 5px;
+}
+.clock {
+  /* font-family: */
+  font-family: "DSEG7 Modern", monospace;
+  font-size: 60px;
+  text-shadow: 0px 0px 1px #fff;
+  color: #fff;
+  background-color: #222;
+}
+.clock {
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0px 0px 1px #333;
+  font-size: 50px;
+  position: relative;
+  top: -5px;
+  left: 10px;
+  letter-spacing: 7.5px;
+}
+.date {
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: #fff;
+}
